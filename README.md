@@ -13,7 +13,7 @@ Obs:. Esse projeto está usando um open cluster do mongoDB.
 
 ## RUN IT
 
-Para rodar no nosso localhost vamos utilizar 2 comando.
+Para rodar no nosso localhost vamos utilizar 2 comandos.
 
 **Building**:
 
