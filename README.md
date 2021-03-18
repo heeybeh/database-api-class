@@ -5,7 +5,7 @@ Obs:. Esse projeto está usando um open cluster do mongoDB.
 
 **Mongo Cloud**: [Create a Cluster](https://cloud.mongodb.com/).
 
-**Mongo Compass**: [Install docker](https://www.mongodb.com/try/download/compass/).
+**Mongo Compass**: [Install mongo Compass](https://www.mongodb.com/try/download/compass/).
 
 **Instalar Docker**: [Install docker](https://docs.docker.com/get-docker/).
 
