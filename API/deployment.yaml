@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: &deploykb apitest
+  labels: &labels
+    app: *deploykb
+spec:
+  minReadySeconds: 1
+  selector:
+    matchLabels: *labels
+  replicas: 1
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels: *labels
+    spec:
+      containers:
+      - name: *deploykb
+        image: heeybeh/apitest:v1
+        command: ["./binary"]
